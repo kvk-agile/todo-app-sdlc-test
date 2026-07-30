@@ -1,0 +1,9 @@
+{
+  "name": "todo-app-sdlc-test",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Single-file to-do list app (see requirements.md)",
+  "scripts": {
+    "test": "node --test tests/"
+  }
+}
