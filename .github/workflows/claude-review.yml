@@ -24,6 +24,10 @@ jobs:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           prompt: |
             Please review this pull request. Check the code against
-            requirements.md for completeness and correctness, look for bugs,
-            and comment on code quality. Leave your review as a comment on
-            this PR.
+               requirements.md for completeness and correctness, look for bugs,
+               and comment on code quality.
+
+               IMPORTANT: Post your entire review as a single top-level
+               comment on the pull request (visible in the Conversation tab),
+               not as inline comments on specific lines. Use the GitHub CLI
+               (gh pr comment) or equivalent to post it as one plain comment.
