@@ -22,12 +22,7 @@ jobs:
         uses: anthropics/claude-code-action@v1
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
-          claude_args: |
-            --allowedTools "Bash(gh pr comment:*),Bash(gh pr view:*)"
           prompt: |
             Please review this pull request. Check the code against
             requirements.md for completeness and correctness, look for bugs,
             and comment on code quality.
-
-            Post your entire review as a single top-level comment on the
-            pull request using: gh pr comment ${{ github.event.pull_request.number }} --body "..."
