@@ -2,7 +2,7 @@
 
 An experiment in **AI-agent-driven software delivery** — built by a non-developer (Agile Coach background) to understand what "agentic AI in the SDLC" actually looks like in practice, not just in theory.
 
-🔗 **Live app:** https://talktokvk-ship-it.github.io/todo-app-sdlc-test/
+🔗 **Live app:** https://kvk-agile.github.io/todo-app-sdlc-test/
 
 ## What this is
 
